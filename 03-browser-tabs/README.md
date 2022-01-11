@@ -1,14 +1,16 @@
-# React Router projects
+# React Router project
 We will use the mouse movement to highlight tabs. We'll also use the React Router to route between tabs.
 
 # React skills used in this app
-- React Router
+- React Router 
 - React state w/ useState()
-- React effects w/ useEffect()
 - Hover events
 
 # Demo
-<img align="center" alt="Demo" src=" " />
+![chrome-capture (1)](https://user-images.githubusercontent.com/40532644/149007188-1fde1874-3e8e-401e-ba8f-12e7bef3cb7f.gif)
+
+# 404 page
+<img align="center" width="460" alt="404 page" src="https://user-images.githubusercontent.com/40532644/149007206-a7b31b70-2cf3-4e1b-beeb-05ff2726c9bc.png">
 
 # Run this fun Project on your machine
 ### `Download Zip / Git clone <projectLink>`
