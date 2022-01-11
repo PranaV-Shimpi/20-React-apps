@@ -7,7 +7,7 @@ function padTime(time) {
 
 export default function App() {
   const [title, setTitle] = useState("Let the countdown begin!!!");
-  const [timeLeft, setTimeLeft] = useState(15);
+  const [timeLeft, setTimeLeft] = useState(5);
   const [isRunning,setIsRunning] =useState(false)
   const intervalRef = useRef(null);
 
@@ -40,7 +40,7 @@ function resetTimer() {
     clearInterval(intervalRef.current);
     intervalRef.current = null;
     setTitle("ready to go another round?");
-    setTimeLeft(0.5 * 60);
+    setTimeLeft(5);
     setIsRunning(false)
   }
 
@@ -48,8 +48,9 @@ function resetTimer() {
   const seconds = padTime(timeLeft - minutes * 60);
 
   return (
-    <div className="app">
-      <h1>{title}</h1>
+      <div className="app">
+        <h1>Timmerr!</h1>
+        <h1>{title}</h1>
 
       <div className="timer">
         <span>{minutes}</span>
