@@ -1,19 +1,18 @@
-
-# Markdown Editor
-It is a real-time markdown previewer. As we update the markdown, we'll see the preview change on the right.
+# React Router projects
+We will use the mouse movement to highlight tabs. We'll also use the React Router to route between tabs.
 
 # React skills used in this app
+- React Router
 - React state w/ useState()
-- 3rd Party Packages
+- React effects w/ useEffect()
+- Hover events
 
 # Demo
-<img align="center" alt="Demo" src="https://user-images.githubusercontent.com/40532644/148912126-695a6c92-65c3-4237-bb61-a4e8331fed0b.png" />
+<img align="center" alt="Demo" src=" " />
 
 # Run this fun Project on your machine
 ### `Download Zip / Git clone <projectLink>`
 ### `npm install`
-### `npm install --save react-markdown`  
-used react-markdown library to render output as an HTML element output.
 ### `npm start` 
 
 
