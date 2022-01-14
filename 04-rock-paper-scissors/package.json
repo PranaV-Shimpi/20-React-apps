@@ -1,5 +1,4 @@
 {
-  "homepage": "http://PranaV-Shimpi/20-React-apps/04-rock-paper-scissors",
   "name": "04-rock-paper-scissors",
   "version": "0.1.0",
   "private": true,
@@ -17,8 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
