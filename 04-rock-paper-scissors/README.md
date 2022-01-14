@@ -1,7 +1,7 @@
 # Rock. Paper. Scissors.
 [Play Live Game](https://ps-rock-paper-scissors.netlify.app/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e4c482cd-53b6-48e6-a667-28302cb44e64/deploy-status)](https://app.netlify.com/sites/frosty-mclean-cd6a1e/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e4c482cd-53b6-48e6-a667-28302cb44e64/deploy-status)](https://app.netlify.com/sites/ps-rock-paper-scissors/deploys)
 
 # React skills used in this app
 - React state w/ useState()
