@@ -28,6 +28,9 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 ---
 ## 4) Rock Paper Scisssors
+
+- Live Project Link: [Play Live Game](https://ps-rock-paper-scissors.netlify.app/)
+- Source code Link: [source code](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/04-rock-paper-scissors)
    
    <img width="707" alt="RPS" src="https://user-images.githubusercontent.com/40532644/149501357-001d3bab-4947-401e-b32c-0993ad222c22.png">
 
