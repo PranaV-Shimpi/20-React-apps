@@ -12,8 +12,16 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Demos 
 
+---
+
 ## 6) Unsplash API Images Infinite Scrolling
+
+- Live Project Link: [React Unsplash Image Search](https://unsplash-images-infinite-scrolling.netlify.app/)
+- Source Code: [Source Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/06-unsplash-images-clone-infinite-scrolling)
+
 ![cats_unsplash](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/ff7c2b7e-29f6-4af1-ab11-d946e2baaa9e)
+
+---
 
 ## 5) Moving Boxes
    ![playIt](https://user-images.githubusercontent.com/40532644/150100649-f9453fe9-2bde-4337-aa2f-33e7ca3cfb1d.gif)
