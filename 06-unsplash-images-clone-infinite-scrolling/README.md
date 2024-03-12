@@ -5,9 +5,11 @@ This project is a React application that utilizes the Unsplash API to search for
 ## Live Link and Source Code:
 
 - Live Project Link: [React Unsplash Image Search](https://unsplash-images-infinite-scrolling.netlify.app/)
-- Source Code: [React Unsplash Image Search Demo](https://your-demo-video.com)
+- Source Code: [Source Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/06-unsplash-images-clone-infinite-scrolling)
 
 ## Images
+![cats_unsplash](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/ff7c2b7e-29f6-4af1-ab11-d946e2baaa9e)
+
 
 ## Key Concepts Used:
 Project demonstrates the usage of various React concepts:
@@ -17,6 +19,8 @@ Project demonstrates the usage of various React concepts:
 - **`useState`**: Another hook used in functional components to manage state. In this project, `useState` is utilized to store the search query entered by the user and the resulting images retrieved from the API.
 
 - **API handling**: The project demonstrates how to interact with an external API (Unsplash) to retrieve data. It involves making HTTP requests to the API endpoint and handling the response data.
+ 
+- **Search Query**: The term or phrase entered by the user into the search input field, used to fetch images related to the user's input from the Unsplash API.
 
 - **Fetching API**: Using JavaScript's `fetch` function, this project retrieves images from the Unsplash API based on the user's search query.
 
