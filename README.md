@@ -4,7 +4,7 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Features
 
-- **Comprehensive Coverage:** Explore a diverse range of React.js features, including state management, component composition, hooks, context API, and more.
+- **Comprehensive Coverage:** Explore a diverse range of React.js features, including state management, component composition, hooks, context API, error handing, API handling, Redux, Axios and more.
 - **Real-world Scenarios:** Each app is designed to simulate real-world scenarios, allowing you to tackle practical challenges and deepen your understanding.
 - **Clear Documentation:** Detailed README files accompany each app, providing clear instructions on installation, usage, and customization.
 - **Interactive Learning:** Engage with interactive components, dynamic UIs, and responsive designs, fostering an interactive learning environment.
