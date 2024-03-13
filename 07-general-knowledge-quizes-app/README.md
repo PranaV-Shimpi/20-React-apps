@@ -9,22 +9,23 @@
 
 ## Live Link and Source Code:
 
-- Live Project Link: [React Unsplash Image Search](https://ps-quiz-app.netlify.app/)
+- Live Project Link: [Live Quiz App](https://ps-quiz-app.netlify.app/)
 - Source Code: [Source Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/07-general-knowledge-quizes-app)
 
 ## Images
 
+![quizz](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/023bc34c-ba51-4169-ac88-2bb4bfe06610)
+
+![quizz wrong](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/229e37bf-4043-4a15-a7d4-dd1aa40c13b0)
 
 
 ## Key Concepts Used:
 Project demonstrates the usage of various React concepts:
 
 
-- Package Name: **lodash.shuffle**
-Description: A utility function in lodash for shuffling array elements randomly.
-Usage: Easily shuffle array elements to create randomized lists or implement game mechanics.
 
-- The **spread operator** (...): Spread operator allows for the expansion of arrays into individual elements, cloning or merging objects, and capturing multiple function arguments into an array.
+
+- The **`spread operator`** (...): Spread operator allows for the expansion of arrays into individual elements, cloning or merging objects, and capturing multiple function arguments into an array.
 
 - **`useEffect`**: This hook is used for handling side effects in functional components. In this project, `useEffect` is employed to fetch data from the Unsplash API when the component mounts.
 
@@ -35,6 +36,10 @@ Usage: Easily shuffle array elements to create randomized lists or implement gam
 - **Fetching API**: Using JavaScript's `fetch` function, this project retrieves images from the Unsplash API based on the user's search query.
 
 - **CSS media queries**: Media queries in CSS allow the styling of a web page to adapt to different screen sizes and devices. This project utilizes CSS media queries to ensure the application's responsiveness across various devices.
+  
+- Package used: **`lodash.shuffle`**<br>
+  - Description: A utility function in lodash for shuffling array elements randomly.
+  - Usage: Easily shuffle array elements to create randomized lists or implement game mechanics.
 
 ## Usage:
 
