@@ -1,0 +1,27 @@
+.element {
+  background: #2687c2;
+  color: white;
+  padding: 5px 15px;
+  font-size: 18px;
+
+  .headdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      font-family: Arial, sans-serif;
+      color: white;
+      text-decoration: none;
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  .element {
+    padding: 15px 20px;
+    .headdiv {
+      justify-content: start;
+    }
+  }
+}
