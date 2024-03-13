@@ -12,6 +12,14 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Demos 
 
+## 7) Quiz App
+
+- Live Project Link: [Live Quiz App](https://ps-quiz-app.netlify.app/)
+- Source Code: [Source Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/07-general-knowledge-quizes-app)
+
+
+![quizz](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/023bc34c-ba51-4169-ac88-2bb4bfe06610)
+
 ---
 
 ## 6) Unsplash API Images Infinite Scrolling
