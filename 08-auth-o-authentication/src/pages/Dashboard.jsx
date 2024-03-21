@@ -6,7 +6,7 @@ export default function Dashboard() {
     <div className="page dashboard">
       <div>
         <img src={Frodo} alt="Frodo" />
-        <h2>Welcome Person</h2>
+        <h2>Welcome... You have successfully Logged IN</h2>
       </div>
     </div>
   );
