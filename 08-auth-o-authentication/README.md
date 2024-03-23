@@ -4,6 +4,17 @@
 
 This project is a full-fledged React application integrating Auth0 authentication, designed to provide a robust and secure user authentication experience. Auth0 offers a comprehensive authentication and authorization platform, ensuring that user data remains protected while providing a seamless login experience.
 
+- sample code - [Code](https://github.com/PranaV-Shimpi/20-React-apps/edit/main/08-auth-o-authentication)
+- Live project link - [Demo](https://ps-authentication.netlify.app/)
+
+## Images
+![Screenshot 2024-03-23 122024](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/08a4fdb8-60ac-453f-8d15-b9c4d0b91c0a)
+![Screenshot 2024-03-23 122046](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/eeda4ab6-5173-45c6-9f46-33d1b9c715cc)
+![Screenshot 2024-03-23 122122](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/df4f8c08-5451-4f64-b99a-b3151e008264)
+![Screenshot 2024-03-23 122226](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/8e792852-c3d5-4b9d-a418-15160cd5042b)
+
+  
+
 ## Features
 
 ### User Authentication
