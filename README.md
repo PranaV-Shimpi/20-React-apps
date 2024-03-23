@@ -11,6 +11,12 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 
 # Demos 
+## 8) Authentication using Auth0 in React 
+- Live Project Link: [Live App Demo](https://ps-authentication.netlify.app/)
+- Source Code: [Source Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/08-auth-o-authentication)
+
+![Screenshot-2024-03-23-122024](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/d2c37acb-4f3a-41e4-a7eb-e321f9cbf4a2)
+
 
 ## 7) Quiz App
 
