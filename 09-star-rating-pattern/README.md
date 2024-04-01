@@ -1,10 +1,10 @@
 # Star Rating Pattern ⭐
-![Star Pattern](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/e9e13142-5396-430c-96a3-087da43ef072)
 
 - Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/09-star-rating-pattern)
 - Project Demo: [Demo link](https://ps-star-rating.netlify.app/)
 
 # Images 
+![Star Pattern](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/e9e13142-5396-430c-96a3-087da43ef072)
 
 
 ## Overview
@@ -48,6 +48,7 @@ npm i react-icons
 npm start
 ```
 ---
+
 <div style="text-align:center; font-size: larger;">Made with ❤️ by PranaV Shimpi</div>
 
 ---
