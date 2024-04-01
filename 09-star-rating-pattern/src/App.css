@@ -1,14 +1,33 @@
-.star-rating {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.star-rating-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
 
-  .active {
-    color: #fff700;
+  .star-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .active {
+      color: #fff700;
+    }
+
+    .inactive {
+      color: #000000;
+    }
   }
-
-  .inactive {
-    color: #000000;
+  .thank-you-message {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #333;
   }
 }

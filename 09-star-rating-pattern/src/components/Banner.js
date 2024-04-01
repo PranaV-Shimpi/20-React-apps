@@ -8,7 +8,7 @@ const Banner = () => {
         <a href="/" className="project-name">🌟Star Rating</a>
       </div>
       <div className="right">
-        <a href="https://github.com/yourusername/projectname" className="github-link">📄Source Code </a>
+        <a href="https://github.com/PranaV-Shimpi/20-React-apps/tree/main/09-star-rating-pattern" className="github-link">📄Source Code </a>
         <a href="https://github.com/pranav-shimpi/20-React-apps/" className="all-projects-link">🚀20 React Projects </a>
       </div>
     </div>
