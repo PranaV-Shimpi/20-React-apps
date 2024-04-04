@@ -12,7 +12,17 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Demos 
 
-## 8) Star Rating Pattern in React 
+## 10) Date Picker Project 
+
+This project is a simple date picker component built with React.js and styled-components. It allows users to select a start date and an end date, with the ability to customize the available date range based on the selected start date.
+
+- Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/10-calendar-dates-picker)
+- Project Demo: [Demo link](https://calendar-date-picker.netlify.app/)
+
+![Screenshot 2024-04-04 202358](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/fb580154-4bb7-49d9-b77b-3cfec2fbcded)
+
+
+## 9) Star Rating Pattern in React 
 - Source Code:  [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/09-star-rating-pattern)
 - Live Project Link: [Demo link](https://ps-star-rating.netlify.app/)
   

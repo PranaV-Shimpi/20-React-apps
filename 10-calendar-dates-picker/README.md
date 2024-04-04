@@ -16,6 +16,7 @@ This project is a simple date picker component built with React.js and styled-co
 - useState: React hook for managing component state.
 
 ## Images
+![Screenshot 2024-04-04 202358](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/17b25814-9ac9-47a2-ae26-9b1e94036837)
 
 
 ## Getting Started
