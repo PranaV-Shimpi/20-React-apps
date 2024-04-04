@@ -1,37 +1,50 @@
 .banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px 10px 20px;
-    background-color: #007bff; 
-    color: white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 10px 20px;
+  background-color: #007bff;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.project-name {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.github-link,
+.all-projects-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.github-link:hover,
+.all-projects-link:hover {
+  text-decoration: underline;
+}
+.all-projects-link {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.github-link:hover,
+.all-projects-link:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    flex-direction: column;
+    gap: 10px;
   }
-  
-  .project-name {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  
-  .github-link,
-  .all-projects-link {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    margin-left: 20px;
-  }
-  
-  .github-link:hover,
-  .all-projects-link:hover {
-    text-decoration: underline;
-  }  .all-projects-link {
-    color: inherit;
-    text-decoration: none;
-    margin-left: 20px;
-  }
-  
-  .github-link:hover,
-  .all-projects-link:hover {
-    text-decoration: underline;
-  }
+}
