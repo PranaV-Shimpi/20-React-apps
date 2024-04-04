@@ -11,6 +11,13 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 
 # Demos 
+
+## 8) Star Rating Pattern in React 
+- Source Code:  [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/09-star-rating-pattern)
+- Live Project Link: [Demo link](https://ps-star-rating.netlify.app/)
+  
+![Star Pattern](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/fb2b152a-986a-4a1f-aae1-2a27ded8cd8c)
+
 ## 8) Authentication using Auth0 in React 
 - Live Project Link: [Live App Demo](https://ps-authentication.netlify.app/)
 - Source Code: [Source Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/08-auth-o-authentication)
