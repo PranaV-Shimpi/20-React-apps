@@ -1,10 +1,9 @@
 # ⭐ Date Picker Project ⭐
 
-
 This project is a simple date picker component built with React.js and styled-components. It allows users to select a start date and an end date, with the ability to customize the available date range based on the selected start date.
 
 - Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/10-calendar-dates-picker)
-- Project Demo: [Demo link]()
+- Project Demo: [Demo link](https://calendar-date-picker.netlify.app/)
 
 ## Features
 - Select start and end dates using a user-friendly interface.
