@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# ⭐ Date Picker Project ⭐
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This project is a simple date picker component built with React.js and styled-components. It allows users to select a start date and an end date, with the ability to customize the available date range based on the selected start date.
 
-In the project directory, you can run:
+- Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/10-calendar-dates-picker)
+- Project Demo: [Demo link]()
 
-### `npm start`
+## Features
+- Select start and end dates using a user-friendly interface.
+- Customize the available date range based on the selected start date.
+- Visual indication of the selected dates with CSS styling.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- React.js: A JavaScript library for building user interfaces.
+- styled-components: A CSS-in-JS library for styling React components.
+- useState: React hook for managing component state.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Images
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
+1. Clone the repository:
 
-### `npm run build`
+```
+git clone https://github.com/PranaV-Shimpi/20-React-apps.git
+```
+2. Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+cd 10-calendar-dates-picker
+npm install 
+npm i styled-components
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the development server:
+```
+npm start
+```
+Open your web browser and navigate to http://localhost:3000 to view the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
+- Select a start date by clicking on the input field labeled "Start Date".
+- Select an end date by clicking on the input field labeled "End Date". The available dates will be restricted based on the selected start date.
+- The selected start and end dates will be visually highlighted with CSS styling.
 
-### `npm run eject`
+## Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+ Made with ❤️ by  PranaV Shimpi
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center" >This project is part of the <a href="https://github.com/PranaV-Shimpi/20-React-apps" target="_blank">20 React Apps</a> series by PranaV Shimpi.</p>
