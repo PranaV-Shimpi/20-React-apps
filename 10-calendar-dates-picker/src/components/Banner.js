@@ -14,7 +14,7 @@ const Banner = () => {
           href="https://github.com/PranaV-Shimpi/20-React-apps/tree/main/10-calendar-dates-picker"
           className="github-link"
         >
-          👨‍💻Source Code{" "}
+          👨‍💻Source Code
         </a>
         <a
           href="https://github.com/pranav-shimpi/20-React-apps/"
