@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# ChatRoom Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The ChatRoom web application is a real-time chat platform built using React. It allows users to communicate with each other in a multi-user chat environment. The application supports features such as sending and receiving messages, displaying typing indicators, and loading messages asynchronously.
 
-## Available Scripts
+## Features
+- **Real-time Messaging:** real-time communication between users.
+- **React Components:** The application is built using reusable React components for a modular and maintainable codebase.
+- **State Management:** Utilizes React Hooks and local component state to manage the application's state and data flow.
+- **Asynchronous Loading:** Messages are loaded asynchronously from the server to provide a seamless user experience.
+- **Typing Indicators:** Displays typing indicators when other users are composing messages in the chat room.
+- **Component Lifecycle:** Implements React lifecycle methods for component initialization, mounting, updating, and unmounting.
 
-In the project directory, you can run:
+## Code Specifics 
+- **ChatRoom Component:** The main component responsible for managing the chat functionality, including sending and receiving messages.
+- **InputMessage Component:** Handles user input for sending messages and updates the chat state accordingly.
+- **MessageItem Component:** Displays individual chat messages, including the sender's name and message content.
+- **MessageList Component:** Renders a list of messages within the chat room, allowing users to scroll through past messages.
+- **TypingIndicator Component:** Shows typing indicators when other users are actively typing messages.
+- **React Hooks:** Utilizes useState and useEffect hooks to manage component state and side effects.
+- **CSS Styling:** Applies CSS styles to enhance the visual appearance and user experience of the chat interface.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+1. Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+git clone https://github.com/PranaV-Shimpi/20-React-apps.git
+```
+2. Install dependencies:
 
-### `npm test`
+```
+cd 10-calendar-dates-picker
+npm install 
+npm i styled-components
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Start the development server:
+```
+npm start
+```
+Open your web browser and navigate to http://localhost:3000 to view the app.
 
-### `npm run build`
+## Usage
+Once the application is running, you can:
+- Type messages in the input field and press Enter to send.
+- See typing indicators when other users are typing.
+- Receive messages in real-time from other users.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request. Be sure to follow the project's coding conventions and guidelines.
