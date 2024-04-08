@@ -11,7 +11,7 @@ const Banner = () => {
       </div>
       <div className="right">
         <a
-          href="https://github.com/PranaV-Shimpi/20-React-apps/tree/main/10-calendar-dates-picker"
+          href="https://github.com/PranaV-Shimpi/20-React-apps/tree/main/11-chat-visualization"
           className="github-link"
         >
           👨‍💻Source Code

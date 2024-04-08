@@ -3,6 +3,9 @@
 ## Overview
 The ChatRoom web application is a real-time chat platform built using React. It allows users to communicate with each other in a multi-user chat environment. The application supports features such as sending and receiving messages, displaying typing indicators, and loading messages asynchronously.
 
+## Images
+
+
 ## Features
 - **Real-time Messaging:** real-time communication between users.
 - **React Components:** The application is built using reusable React components for a modular and maintainable codebase.
@@ -30,9 +33,9 @@ git clone https://github.com/PranaV-Shimpi/20-React-apps.git
 2. Install dependencies:
 
 ```
-cd 10-calendar-dates-picker
+cd 11-chat-visualization
 npm install 
-npm i styled-components
+npm install react-icons
 ```
 
 Start the development server:
