@@ -3,6 +3,9 @@
 ## Overview
 The ChatRoom web application is a real-time chat platform built using React. It allows users to communicate with each other in a multi-user chat environment. The application supports features such as sending and receiving messages, displaying typing indicators, and loading messages asynchronously.
 
+## Demo
+Live App: [Chat Visualization](https://chat-visualization.netlify.app/)
+
 ## Images
 ![chat application](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/fbafeb29-68a1-4815-807b-0d41b3d7a04a)
 
