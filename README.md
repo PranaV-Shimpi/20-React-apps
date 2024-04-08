@@ -17,7 +17,7 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 - Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/11-chat-visualization)
 - Project Demo: [Demo link](https://calendar-date-picker.netlify.app/)
 
-
+![chat application](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/fbafeb29-68a1-4815-807b-0d41b3d7a04a)
 
 ## 10) Date Picker Project 
 
