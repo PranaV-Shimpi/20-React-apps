@@ -12,6 +12,13 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Demos 
 
+## 11) ChatAPP Visualization
+
+- Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/11-chat-visualization)
+- Project Demo: [Demo link](https://calendar-date-picker.netlify.app/)
+
+
+
 ## 10) Date Picker Project 
 
 This project is a simple date picker component built with React.js and styled-components. It allows users to select a start date and an end date, with the ability to customize the available date range based on the selected start date.
