@@ -56,3 +56,11 @@ Once the application is running, you can:
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request. Be sure to follow the project's coding conventions and guidelines.
+
+---
+<p align="center">
+ Made with ❤️ by  PranaV Shimpi
+</p>
+
+
+<p align="center" >This project is part of the <a href="https://github.com/PranaV-Shimpi/20-React-apps" target="_blank">20 React Apps</a> series by PranaV Shimpi.</p>
