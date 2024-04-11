@@ -19,8 +19,9 @@ This is a multi-step form application built with React. Users can navigate throu
 - Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/12-multi-step-form)
 - Project Demo: [https://ps-multi-step-form.netlify.app/](https://ps-multi-step-form.netlify.app/)
 
+![payment-imageonline co-merged](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/c37d2c67-af94-4a9a-b49a-8d30ba9870f7)
 
-![Image]()
+
 
 ## 11) ChatAPP Visualization
 
