@@ -12,6 +12,16 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Demos 
 
+## 12) Multi-step-form in React using Contexts
+
+This is a multi-step form application built with React. Users can navigate through multiple form steps, providing information at each step, such as account details, personal information, final details, and payment information. The application provides a seamless experience for users to input data across different form sections and proceed to the next step.
+
+- Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/12-multi-step-form)
+- Project Demo: [https://ps-multi-step-form.netlify.app/](https://ps-multi-step-form.netlify.app/)
+
+
+![Image]()
+
 ## 11) ChatAPP Visualization
 
 - Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/11-chat-visualization)
