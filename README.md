@@ -19,13 +19,14 @@ This is a multi-step form application built with React. Users can navigate throu
 - Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/12-multi-step-form)
 - Project Demo: [https://ps-multi-step-form.netlify.app/](https://ps-multi-step-form.netlify.app/)
 
+![payment-imageonline co-merged](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/c37d2c67-af94-4a9a-b49a-8d30ba9870f7)
 
-![Image]()
+
 
 ## 11) ChatAPP Visualization
 
 - Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/11-chat-visualization)
-- Project Demo: [Demo link](https://chat-visualization.netlify.app/)
+- Project Demo: [https://chat-visualization.netlify.app/](https://chat-visualization.netlify.app/)
 
 ![chat application](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/fbafeb29-68a1-4815-807b-0d41b3d7a04a)
 
@@ -34,14 +35,14 @@ This is a multi-step form application built with React. Users can navigate throu
 This project is a simple date picker component built with React.js and styled-components. It allows users to select a start date and an end date, with the ability to customize the available date range based on the selected start date.
 
 - Source-code : [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/10-calendar-dates-picker)
-- Project Demo: [Demo link](https://calendar-date-picker.netlify.app/)
+- Project Demo: [https://calendar-date-picker.netlify.app/](https://calendar-date-picker.netlify.app/)
 
 ![Screenshot 2024-04-04 202358](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/fb580154-4bb7-49d9-b77b-3cfec2fbcded)
 
 
 ## 9) Star Rating Pattern in React 
 - Source Code:  [Code Link](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/09-star-rating-pattern)
-- Live Project Link: [Demo link](https://ps-star-rating.netlify.app/)
+- Live Project Link: [https://ps-star-rating.netlify.app/](https://ps-star-rating.netlify.app/)
   
 ![Star Pattern](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/fb2b152a-986a-4a1f-aae1-2a27ded8cd8c)
 

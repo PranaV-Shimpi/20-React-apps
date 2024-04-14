@@ -7,7 +7,13 @@ This is a multi-step form application built with React. Users can navigate throu
 - Project Demo: [https://ps-multi-step-form.netlify.app/](https://ps-multi-step-form.netlify.app/)
 
 # Images 
-![Image]()
+
+![step form](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/d821c42a-b8a4-4b28-9719-e11110843e4a)
+
+![details](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/62c833cf-ceb2-41c7-a51e-a9ac8a9be0e0)
+
+![payment](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/3e15d79d-8e41-45fa-8685-34ae1c3d6ae0)
+
 
 
 ## Concepts Used
