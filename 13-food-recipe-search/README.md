@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Recipe Finder App using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This project is a Recipe Finder application built using React. It allows users to search for recipes by name, view recipe details, and add recipes to their favorites. The application utilizes various React concepts such as Context API for state management, React Router for routing and navigation, and Tailwind CSS for styling.
 
-In the project directory, you can run:
+- Source-code : [food-recipe-search](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/13-food-recipe-search)
+- Project Demo: [https://taste-treasure.netlify.app/](https://taste-treasure.netlify.app/)
 
-### `npm start`
+## Images
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Concepts Covered
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Context API:** Used for global state management.
+- **React Router:** Enables routing and navigation within the application.
+- **Params:** Utilized for passing dynamic data through URL paths.
+- **Tailwind CSS:** Provides utility-first CSS for styling components.
 
-### `npm test`
+## Additional Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In addition to the mentioned concepts, the Recipe Finder app also includes the following features:
 
-### `npm run build`
+- **Search Functionality:** Users can search for recipes by name using the search bar.
+- **Favorites List:** Users can add recipes to their favorites list and view them later.
+- **Responsive Design:** The application is designed to be responsive and accessible across different devices and screen sizes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Running the Application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the Recipe Finder app locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository: `git clone https://github.com/PranaV-Shimpi/20-React-apps.git`
+2. Navigate to the project directory: `cd 13-food-recipe-search`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000` to view the application.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

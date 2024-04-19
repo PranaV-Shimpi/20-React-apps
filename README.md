@@ -12,6 +12,14 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Demos 
 
+## 13) Recipe Finder App using React
+
+This project is a Recipe Finder application built using React. It allows users to search for recipes by name, view recipe details, and add recipes to their favorites. The application utilizes various React concepts such as Context API for state management, React Router for routing and navigation, and Tailwind CSS for styling.
+
+- Source-code : [food-recipe-search](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/13-food-recipe-search)
+- Project Demo: [https://taste-treasure.netlify.app/](https://taste-treasure.netlify.app/)
+
+
 ## 12) Multi-step-form in React using Contexts
 
 This is a multi-step form application built with React. Users can navigate through multiple form steps, providing information at each step, such as account details, personal information, final details, and payment information. The application provides a seamless experience for users to input data across different form sections and proceed to the next step.
