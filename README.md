@@ -19,6 +19,7 @@ This project is a Recipe Finder application built using React. It allows users t
 - Source-code : [food-recipe-search](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/13-food-recipe-search)
 - Project Demo: [https://taste-treasure.netlify.app/](https://taste-treasure.netlify.app/)
 
+![Home](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/1a0e24a6-9c12-4fe1-a48b-fa2ab58fdab3)
 
 ## 12) Multi-step-form in React using Contexts
 
