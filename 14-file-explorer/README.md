@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# File Explorer in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The **Folder Explorer Component** is a React component that allows users to create, view, and manage a folder structure. It provides functionalities like adding folders and files, renaming items, and deleting items. The component is designed to be highly customizable and responsive across different devices.
 
-## Available Scripts
+- Source-code : [File explorer code](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/14-file-explorer)
+- Project Demo: [https://ps-file-explorer.netlify.app/](https://ps-file-explorer.netlify.app/)
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Create folders and files
+- Rename folders and files
+- Delete folders and files
+- Expand and collapse folder structure
+- Error handling for invalid operations
+- Responsive design for desktop, tablet, and mobile devices
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Images
 
-### `npm test`
+## Functionalities
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Create
 
-### `npm run build`
+- **Add Folder:** Click the "+" button to add a new folder. Enter the folder name and press Enter to create it.
+- **Add File:** Click the "+" button to add a new file. Enter the file name and press Enter to create it.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Rename
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Edit Name:** Double-click on the folder or file name to edit it. Press Enter to save the new name.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Delete
 
-### `npm run eject`
+- **Delete:** Click the "❌" button to delete a folder or file. Note: Root folder and package.json file cannot be deleted.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Expand/Collapse
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Expand/Collapse:** Click on a folder to expand or collapse its contents.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Error Handling
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Error messages are displayed when invalid operations are attempted, such as creating a folder under a file or deleting the root folder.
 
-## Learn More
+### Data Structures
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- The component internally uses Depth-First Search (DFS) to traverse the folder structure and dynamic programming techniques for efficient node manipulation.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Custom Hooks
 
-### Code Splitting
+- The component utilizes custom hooks for state management and encapsulation of logic, such as useTraverseTree for traversing the folder structure and performing operations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Responsive Design
 
-### Analyzing the Bundle Size
+- The component is designed to adapt to different screen sizes, with adjustments made for desktop, tablet, and mobile devices.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Running the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To run the Recipe Finder app locally:
 
-### Advanced Configuration
+1. Clone the repository: `git clone https://github.com/PranaV-Shimpi/20-React-apps.git`
+2. Navigate to the project directory: `cd 14-file-explorer`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000` to view the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request. Be sure to follow the project's coding conventions and guidelines.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="center">
+ Made with ❤️ by  PranaV Shimpi
+</p>
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center" >This project is part of the <a href="https://github.com/PranaV-Shimpi/20-React-apps" target="_blank">20 React Apps</a> series by PranaV Shimpi.</p>

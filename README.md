@@ -12,6 +12,13 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Demos 
 
+## 14) File Explorer in React
+
+The **Folder Explorer Component** is a React component that allows users to create, view, and manage a folder structure. It provides functionalities like adding folders and files, renaming items, and deleting items. The component is designed to be highly customizable and responsive across different devices.
+
+- Source-code : [File explorer code](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/14-file-explorer)
+- Project Demo: [https://ps-file-explorer.netlify.app/](https://ps-file-explorer.netlify.app/)
+
 ## 13) Recipe Finder App using React
 
 This project is a Recipe Finder application built using React. It allows users to search for recipes by name, view recipe details, and add recipes to their favorites. The application utilizes various React concepts such as Context API for state management, React Router for routing and navigation, and Tailwind CSS for styling.
