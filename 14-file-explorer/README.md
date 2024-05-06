@@ -6,6 +6,9 @@ The **Folder Explorer Component** is a React component that allows users to crea
 - Project Demo: [https://ps-file-explorer.netlify.app/](https://ps-file-explorer.netlify.app/)
 
 
+## Images
+![image](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/a6d81c53-0311-4342-a4d7-109cf9857cec)
+
 ## Features
 
 - Create folders and files
@@ -14,9 +17,7 @@ The **Folder Explorer Component** is a React component that allows users to crea
 - Expand and collapse folder structure
 - Error handling for invalid operations
 - Responsive design for desktop, tablet, and mobile devices
-
-## Images
-
+  
 ## Functionalities
 
 ### Create
