@@ -19,6 +19,9 @@ The **Folder Explorer Component** is a React component that allows users to crea
 - Source-code : [File explorer code](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/14-file-explorer)
 - Project Demo: [https://ps-file-explorer.netlify.app/](https://ps-file-explorer.netlify.app/)
 
+![image](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/a6d81c53-0311-4342-a4d7-109cf9857cec)
+
+
 ## 13) Recipe Finder App using React
 
 This project is a Recipe Finder application built using React. It allows users to search for recipes by name, view recipe details, and add recipes to their favorites. The application utilizes various React concepts such as Context API for state management, React Router for routing and navigation, and Tailwind CSS for styling.
