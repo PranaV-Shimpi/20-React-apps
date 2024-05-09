@@ -11,7 +11,7 @@ const Banner = () => {
       </div>
       <div className="right">
         <a
-          href="https://github.com/PranaV-Shimpi/20-React-apps/tree/main/14-file-explorer"
+          href="https://github.com/PranaV-Shimpi/20-React-apps/tree/main/15-employee-database-system"
           className="github-link"
         >
           👨‍💻Source Code
