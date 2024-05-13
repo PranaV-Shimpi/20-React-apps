@@ -16,8 +16,8 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 This project is an Employee Management System built using React, integrating concepts like useState, useRef, and useEffects for managing component state and lifecycle. It also utilizes the SweetAlert2 library for beautiful alerts and Primitive UI for CSS styling.
 
-Source-code : [Employee Database System Code](https://github.com/PranaV-Shimpi/20-React-apps/edit/main/15-employee-database-system)
-Project Demo: [https://ps-employee-management-system.netlify.app/](https://ps-employee-management-system.netlify.app/)
+- Source-code : [Employee Database System Code](https://github.com/PranaV-Shimpi/20-React-apps/edit/main/15-employee-database-system)
+- Project Demo: [https://ps-employee-management-system.netlify.app/](https://ps-employee-management-system.netlify.app/)
 
 ![image](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/559a7789-8e3e-407c-a0f7-2646652840da)
 ![image](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/dd4626a3-5fae-403c-b127-0eb43d154dde)
