@@ -12,6 +12,16 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Demos 
 
+## 15) Employee Management System
+
+This project is an Employee Management System built using React, integrating concepts like useState, useRef, and useEffects for managing component state and lifecycle. It also utilizes the SweetAlert2 library for beautiful alerts and Primitive UI for CSS styling.
+
+- Source-code : [Employee Database System Code](https://github.com/PranaV-Shimpi/20-React-apps/edit/main/15-employee-database-system)
+- Project Demo: [https://ps-employee-management-system.netlify.app/](https://ps-employee-management-system.netlify.app/)
+
+![image](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/559a7789-8e3e-407c-a0f7-2646652840da)
+![image](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/dd4626a3-5fae-403c-b127-0eb43d154dde)
+
 ## 14) File Explorer in React
 
 The **Folder Explorer Component** is a React component that allows users to create, view, and manage a folder structure. It provides functionalities like adding folders and files, renaming items, and deleting items. The component is designed to be highly customizable and responsive across different devices.
