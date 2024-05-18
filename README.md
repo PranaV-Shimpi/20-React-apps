@@ -12,6 +12,17 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Demos 
 
+## 16) EduTech University React Project
+
+The EduTech University project is a comprehensive educational platform that includes a variety of features such as email messaging, a university commercial video player, custom navigation bars, sliders, and more. This project aims to provide an intuitive and engaging user experience for both students and educators
+
+- Source-code : [Employee Database System Code](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/16-edutech-univeristy-website)
+- Project Demo: [https://ps-edutech-university.netlify.app/](https://ps-edutech-university.netlify.app/)
+
+
+![hero](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/71b04a3f-e6b7-48eb-9fad-41a137c049da)
+
+
 ## 15) Employee Management System
 
 This project is an Employee Management System built using React, integrating concepts like useState, useRef, and useEffects for managing component state and lifecycle. It also utilizes the SweetAlert2 library for beautiful alerts and Primitive UI for CSS styling.
