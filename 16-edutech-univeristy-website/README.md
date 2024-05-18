@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# EduTech University React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the EduTech University React Project! This project is designed to showcase the capabilities of React in creating a dynamic, user-friendly educational platform. Below, you will find a detailed overview of the project's features and the technologies used.
 
-## Available Scripts
+- Source-code : [Employee Database System Code](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/16-edutech-univeristy-website)
+- Project Demo: [https://ps-edutech-university.netlify.app/](https://ps-edutech-university.netlify.app/)
 
-In the project directory, you can run:
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The EduTech University project is a comprehensive educational platform that includes a variety of features such as email messaging, a university commercial video player, custom navigation bars, sliders, and more. This project aims to provide an intuitive and engaging user experience for both students and educators.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Email Messages**: Users can send query messages within the platform.
+- **University Commercial Video Player**: A custom video player to showcase university commercials and other educational content.
+- **Custom Navigation Bars**: Easy-to-use navigation bars for seamless user experience.
+- **Sliders**: Dynamic sliders to highlight important information and updates.
+- **Reusable Components**: Efficient and reusable React components for better code management and scalability.
+- **Responsive Design**: Ensures that the platform is accessible on various devices and screen sizes.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project leverages several key technologies and React functionalities:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: Core library for building user interfaces.
+- **Reusable Components**: Modular components that can be reused throughout the application.
+- **Props**: Mechanism for passing data to components.
+- **State Management**: Managing the state within components.
+- **Hooks**:
+  - `useState`: Hook for state management in functional components.
+  - `useEffect`: Hook for side effects such as data fetching and subscriptions.
+  - `useRef`: Hook for accessing and manipulating DOM elements directly.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **CSS Modules**: For scoped and maintainable styles.
+- **Media Queries** : Fully Mobile Responsive
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get a local copy of the project up and running, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository**:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/PranaV-Shimpi/20-React-apps.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Navigate to Project**:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    cd 16-edutech-univeristy-website
+    ```
 
-### Code Splitting
+3. **Install Dependancies**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    npm install
+    npm install react-scroll
+    ```
 
-### Analyzing the Bundle Size
+4. **Start the development server**:
+    ```bash
+    npm start
+    ```
+The application will be available at http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Advanced Configuration
+1. **Fork the Project**
+2. **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit your Changes** (`git commit -m 'Add some AmazingFeature'`)
+4. **Push to the Branch** (`git push origin feature/AmazingFeature`)
+5. **Open a Pull Request**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
+<p align="center">
+ Made with ❤️ by  PranaV Shimpi
+</p>
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center" >This project is part of the <a href="https://github.com/PranaV-Shimpi/20-React-apps" target="_blank">20 React Apps</a> series by PranaV Shimpi.</p>
