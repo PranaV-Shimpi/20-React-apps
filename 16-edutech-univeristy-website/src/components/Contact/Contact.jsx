@@ -34,7 +34,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="contact container">
+    <div className="contact ">
       <div className="contact-col">
         <h3>
           Send us a message <img src={msg_icon} alt="msg icon" />
@@ -60,7 +60,7 @@ const Contact = () => {
       </div>
       <div className="contact-col">
         <form onSubmit={onSubmit}>
-          <label> your name</label>
+          <label> Your name</label>
           <input
             type="text"
             name="name"

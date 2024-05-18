@@ -21,6 +21,22 @@
   left: 2%;
 }
 
-.next-btn{
-    right: 2%;
+.next-btn {
+  right: 2%;
+}
+
+/* ------- media queries ---------- */
+
+@media (max-width: 800px) {
+  .testimonials {
+    padding: 0 40px;
+  }
+  .next-btn,
+  .back-btn {
+    padding: 10px;
+    width: 35px;
+  }
+  .testimonials ul li {
+    padding: 10px;
+  }
 }

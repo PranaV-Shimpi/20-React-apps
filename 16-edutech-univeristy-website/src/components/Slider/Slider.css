@@ -45,4 +45,37 @@
   text-align: justify;
 }
 
+/* ------- media queries ---------- */
 
+@media (max-width: 800px) {
+  .slide {
+    padding: 10px;
+  }
+  .slide img {
+    width: 50px;
+    border: 3px solid #212ea0;
+  }
+  .slider ul {
+    width: 200%;
+  }
+
+  .slide p {
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .slide span {
+    font-size: 12px;
+  }
+
+  .user-info {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .user-info h3 {
+    font-size: 16px;
+  }
+}

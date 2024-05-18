@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import "./Testimonials.css";
 import next_arrow from "../../assets/next_arrow.png";
 import back_arrow from "../../assets/back_arrow.png";
