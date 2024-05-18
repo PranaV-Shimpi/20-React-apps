@@ -5,6 +5,14 @@ Welcome to the EduTech University React Project! This project is designed to sho
 - Source-code : [Employee Database System Code](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/16-edutech-univeristy-website)
 - Project Demo: [https://ps-edutech-university.netlify.app/](https://ps-edutech-university.netlify.app/)
 
+## Images 
+
+![hero](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/71b04a3f-e6b7-48eb-9fad-41a137c049da)
+
+![video player](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/c5b2b225-aac5-4088-8551-7ba1c7f8a3bc)
+
+![slider](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/8cbb5c0d-3277-414f-8613-57993a9b6241)
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
