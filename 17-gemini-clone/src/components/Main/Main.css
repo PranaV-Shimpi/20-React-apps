@@ -104,15 +104,149 @@
   padding: 8px;
   font-size: 18px;
 }
-.search-box div{
-    display: flex;
-    align-items: center;
-    gap: 15px;
+.search-box div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
-.main .bottom-info{
-    font-size: 13px;
-    margin: 15px auto;
-    text-align: center;
-    font-weight: 300;
+.main .bottom-info {
+  font-size: 13px;
+  margin: 15px auto;
+  text-align: center;
+  font-weight: 300;
+}
+
+.result {
+  padding: 0 5%;
+  min-width: 70vh;
+  overflow-y: auto;
+}
+
+.result::-webkit-scrollbar {
+  display: none;
+}
+
+.result-title {
+  margin: 40px 0px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.result img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.loader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loader hr {
+  border-radius: 4px;
+  border: none;
+  border-color: #f6f7f8;
+  background: linear-gradient(to right, #9ed7ff, #ffffff, #9ed7ff);
+  background-size: 800px 50px;
+  height: 20px;
+  animation: loader 3s infinite linear;
+}
+
+@keyframes loader {
+  0% {
+    background-position: -800px 0;
+  }
+  100% {
+    background-position: 800px 0;
+  }
+}
+
+.result-data {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.result-data::-webkit-scrollbar {
+  display: none;
+}
+
+.result-data p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+  .main-bottom input {
+    flex: none;
+    width: 150px;
+  }
+
+  .main-bottom img {
+    width: 20px;
+  }
+
+  .search-box {
+    padding: 5px 10px;
+  }
+
+  .search-box div {
+    gap: 5px;
+  }
+
+  .main .card {
+    height: 100px;
+    padding: 12px;
+  }
+  .main .card p {
+    font-size: 15px;
+  }
+  .main .card img {
+    display: none;
+  }
+  .main .greet {
+    margin: 10px 0;
+    font-size: 26px;
+    padding: 10px 20px;
+  }
+
+  .main .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bottom-info {
+    padding-bottom: 20px;
+  }
+
+  .result {
+    min-width: 20vh;
+  }
+
+  .result-title {
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .result img {
+    width: 20px;
+  }
+
+  .loader {
+    width: 100%;
+  }
+
+  .loader hr {
+    background-size: 300px 50px;
+    height: 20px;
+  }
+
+  .result-data p {
+    font-size: 14px;
+  }
 }

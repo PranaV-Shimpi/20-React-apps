@@ -1,9 +1,23 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Sidebar.css";
 import { assets } from "../../assets/assets";
+import { Context } from "../../context/Context";
 
 const Sidebar = () => {
   const [extended, setExtended] = useState(false);
+  const { onSent, prevPrompt, setRecentPrompt, newChat } = useContext(Context);
+
+  const loadPrompt = async (prompt) => {
+    setRecentPrompt(prompt);
+    await onSent(prompt);
+  };
+
+  const handleItemClick = (message) => {
+    alert(
+      `Please check the support page for ${message}. please visit our support page: https://support.google.com/gemini/?hl=en#topic=13194540`
+    );
+  };
+
   return (
     <div className="sidebar">
       <div className="top">
@@ -15,30 +29,47 @@ const Sidebar = () => {
           src={assets.menu_icon}
           alt=""
         />
-        <div className="new-chat">
+        <div onClick={() => newChat()} className="new-chat">
           <img src={assets.plus_icon} alt="" />
-          {extended ? <p>New Chat</p> : null}
+          {extended ? <p >New Chat</p> : null}
         </div>
         {extended ? (
           <div className="recent">
             <p className="recent-title">Recent</p>
-            <div className="recent-entry">
-              <img src={assets.message_icon} alt="" />
-              <p>What is React?</p>
-            </div>
+
+            {prevPrompt.map((item, index) => {
+              return (
+                <div onClick={()=>{loadPrompt(item)}} className="recent-entry">
+                  <img src={assets.message_icon} alt="" />
+                  <p>
+                    {" "}
+                    {item.length > 20 ? `${item.slice(0, 18)} ...` : item}{" "}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         ) : null}
       </div>
       <div className="bottom">
-        <div className="bottom-item recent-entry">
+        <div
+          className="bottom-item recent-entry"
+          onClick={() => handleItemClick("Help")}
+        >
           <img src={assets.question_icon} alt="" />
           {extended ? <p>Help</p> : null}
         </div>
-        <div className="bottom-item recent-entry">
+        <div
+          className="bottom-item recent-entry"
+          onClick={() => handleItemClick("Activity")}
+        >
           <img src={assets.history_icon} alt="" />
           {extended ? <p>Activity</p> : null}
         </div>
-        <div className="bottom-item recent-entry">
+        <div
+          className="bottom-item recent-entry"
+          onClick={() => handleItemClick("Settings")}
+        >
           <img src={assets.setting_icon} alt="" />
           {extended ? <p>Settings</p> : null}
         </div>
