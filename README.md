@@ -17,7 +17,10 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 Gemini AI Search is an intuitive AI-powered search interface designed to provide quick and accurate responses to user queries. The application is built using React and integrates with a custom API to deliver results in real-time.
 
 - Source-code : [Gemini AI clone]()
-- Project Demo: []()
+- Project Demo: [https://ps-gemini-ai-search.netlify.app/](https://ps-gemini-ai-search.netlify.app/)
+  
+![1 JSX](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/c0dff8b3-e53f-4d79-84e3-5b0795a9f94e)
+![Bali Trip](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/e8543ea0-ecf0-4385-bba7-a21db8591671)
 
 ## 16) EduTech University React Project
 
