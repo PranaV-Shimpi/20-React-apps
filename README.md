@@ -12,6 +12,13 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Demos 
 
+## 17) Gemini AI Search
+
+Gemini AI Search is an intuitive AI-powered search interface designed to provide quick and accurate responses to user queries. The application is built using React and integrates with a custom API to deliver results in real-time.
+
+- Source-code : [Gemini AI clone]()
+- Project Demo: []()
+
 ## 16) EduTech University React Project
 
 The EduTech University project is a comprehensive educational platform that includes a variety of features such as email messaging, a university commercial video player, custom navigation bars, sliders, and more. This project aims to provide an intuitive and engaging user experience for both students and educators

@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# Gemini AI Search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Gemini AI Search is an intuitive AI-powered search interface designed to provide quick and accurate responses to user queries. The application is built using React and integrates with a custom API to deliver results in real-time.
 
-## Available Scripts
+- Source-code : [Gemini AI clone]()
+- Project Demo: []()
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+Gemini AI Search leverages the power of AI to understand and respond to user prompts effectively. With a sleek and user-friendly interface, it aims to make information retrieval seamless and efficient.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Here are a few technologies behind Google Gemini Ai:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **NLP (Natural Language Processing)** to interpret and understand human language.
+- **Deep Learning** Algorithms for personalized search experiences
+- **Neural Networks** for mimicking the structure of the human brain
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React Context**: Utilizes React Context API for state management, making the state accessible throughout the application.
+- **Mobile Responsive**: Optimized for both desktop and mobile devices to ensure a seamless experience across all platforms.
+- **AI API Integration**: Integrates with a custom AI API to provide real-time responses to user queries.
+- **Folder Structured**: Organized folder structure for better maintainability and scalability.
+- **Different Hooks**: Implements various custom and built-in React hooks to manage component lifecycle and state effectively.
+- **And Many More**: Additional features and optimizations to enhance the user experience and application performance.
 
-### `npm run build`
+## Libraries Installed
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project utilizes the following libraries:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **@google/generative-ai**: A generative ai library for tokanization lematization .
+- **React**: A JavaScript library for building user interfaces.
+- **React Context API**: For state management.
+- **CSS Modules**: For styling the application components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ensure you have the following installed on your system:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node.js (v14.x or higher)
+- npm (v6.x or higher)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository:
 
-## Learn More
+   ```bash
+    git clone https://github.com/PranaV-Shimpi/20-React-apps.git
+    cd 17-gemini-clone
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install the dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm install
+   npm install @google/generative-ai
+   ```
 
-### Code Splitting
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The application should now be running on `http://localhost:3000`.
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Enter a prompt in the search box and click the send icon to get a response. The interface will dynamically update with the results.
 
-### Making a Progressive Web App
+## Code Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**src** =>
 
-### Advanced Configuration
+- **src/components**: Contains the React components.
+- **src/context**: Contains the Context API setup.
+- **src/assets**: Contains the image assets.
+- **src/config**: Contains the API configuration and utilities.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
 
-### Deployment
+We welcome contributions! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Steps to Contribute
 
-### `npm run build` fails to minify
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Description of changes"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+<p align="center">
+ Made with ❤️ by  PranaV Shimpi
+</p>
+
+<p align="center" >This project is part of the <a href="https://github.com/PranaV-Shimpi/20-React-apps" target="_blank">20 React Apps</a> series by PranaV Shimpi.</p>
