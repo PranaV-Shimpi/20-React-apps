@@ -14,6 +14,26 @@
   color: #585858;
 }
 
+.main .nav a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.main .nav a:hover {
+  color: #007bff;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.main .nav .nav-left {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 85%;
+  gap: 20;
+}
+
 .main .nav img {
   width: 40px;
   border-radius: 50%;
@@ -248,5 +268,16 @@
 
   .result-data p {
     font-size: 14px;
+  }
+
+  .main .nav {
+    font-size: 15px;
+  }
+  .main .nav a {
+    font-size: 15px;
+  }
+  .main .nav .nav-left {
+    flex-direction: column;
+    gap: 10px;
   }
 }

@@ -24,7 +24,15 @@ const Main = () => {
   return (
     <div className="main">
       <div className="nav">
-        <p>Gemini</p>
+        <div className="nav-left">
+          <p>Gemini AI Search</p>
+          <a href="https://github.com/PranaV-Shimpi/20-React-apps">
+            🚀20 React Projects
+          </a>
+          <a href="https://github.com/PranaV-Shimpi/20-React-apps/tree/main/17-gemini-clone">
+            👨‍💻Get Souce Code
+          </a>
+        </div>
         <img src={assets.user_icon} alt="" />
       </div>
       <div className="main-container">
@@ -75,9 +83,23 @@ const Main = () => {
               placeholder="Enter a prompt here"
             />
             <div>
-              <img onClick={() => handleImgClick()} src={assets.gallery_icon} alt="icon" />
-              <img onClick={() =>  handleImgClick()} src={assets.mic_icon} alt="icon" />
-              {input?<img onClick={() => onSent()} src={assets.send_icon} alt="icon" />:null}
+              <img
+                onClick={() => handleImgClick()}
+                src={assets.gallery_icon}
+                alt="icon"
+              />
+              <img
+                onClick={() => handleImgClick()}
+                src={assets.mic_icon}
+                alt="icon"
+              />
+              {input ? (
+                <img
+                  onClick={() => onSent()}
+                  src={assets.send_icon}
+                  alt="icon"
+                />
+              ) : null}
             </div>
           </div>
           <p className="bottom-info">
