@@ -7,6 +7,11 @@ The React Redux Shopping Cart project is a web application that allows users to 
 
 ## Images
 
+![Screenshot 2024-05-28 201544](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/165a4c1c-83b1-491f-a41c-2f6515b1899a)
+
+![srore](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/be710d3c-d806-4d02-ad18-4ea9e9ca1846)
+
+
 ## Features
 
 - Browse a collection of products
