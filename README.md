@@ -4,13 +4,24 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Features
 
-- **Comprehensive Coverage:** Explore a diverse range of React.js features, including state management, component composition, hooks, context API, error handing, API handling, Redux, Axios and more.
+- **Comprehensive Coverage:** Explore a diverse range of React.js features, including state management, component composition, hooks, context API, Redux, error handing, API handling, Redux, Axios and more.
 - **Real-world Scenarios:** Each app is designed to simulate real-world scenarios, allowing you to tackle practical challenges and deepen your understanding.
 - **Clear Documentation:** Detailed README files accompany each app, providing clear instructions on installation, usage, and customization.
 - **Interactive Learning:** Engage with interactive components, dynamic UIs, and responsive designs, fostering an interactive learning environment.
 
 
 # Demos 
+
+## 18) React Redux Shopping cart
+
+The React Redux Shopping Cart project is a web application that allows users to browse a collection of products and add them to their cart. It utilizes React.js for the frontend and Redux for state management. The application provides a seamless shopping experience with features like adding items to the cart, adjusting quantities, and viewing the total price.
+
+- Source-code : [React Redux Shopping Cart](https://github.com/PranaV-Shimpi/20-React-apps/blob/main/README.md)
+- Project Demo: [https://shop-chair.netlify.app/](https://shop-chair.netlify.app/)
+
+## Images
+
+![Screenshot 2024-05-28 201544](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/165a4c1c-83b1-491f-a41c-2f6515b1899a)
 
 ## 17) Gemini AI Search
 
