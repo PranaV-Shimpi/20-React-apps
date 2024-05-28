@@ -3,7 +3,7 @@
 The React Redux Shopping Cart project is a web application that allows users to browse a collection of products and add them to their cart. It utilizes React.js for the frontend and Redux for state management. The application provides a seamless shopping experience with features like adding items to the cart, adjusting quantities, and viewing the total price.
 
 - Source-code : [React Redux Shopping Cart](https://github.com/PranaV-Shimpi/20-React-apps/blob/main/README.md)
-- Project Demo: []()
+- Project Demo: [https://shop-chair.netlify.app/](https://shop-chair.netlify.app/)
 
 ## Images
 
