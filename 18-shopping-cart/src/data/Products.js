@@ -19,7 +19,7 @@ export const products = [
   },
   {
     id: 2,
-    name: "Abingdon Upholstered Chair Swivel",
+    name: "Abingdon Uphols Chair Swivel",
     price: 1051,
     image: imageProduct2,
     description:
