@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# REACT_APP_BITLY_ACCESS_TOKEN
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This URL Shortener React project is a web application that allows users to shorten long URLs. The application incorporates various modern React features and best practices, including structured components, custom animations, API integrations, Axios for HTTP requests, environment variables, hooks, error handling, and mobile responsiveness.
 
-## Available Scripts
+- Source-code : [URL Shortener](https://github.com/PranaV-Shimpi/20-React-apps/blob/main/19-url-shortner/README.md)
+- Project Demo: []()
 
-In the project directory, you can run:
+## Images
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Structured Components**: T\*\*he project follows a well-organized component structure to ensure maintainability and scalability.
+- **Custom Animations**: Implement custom animations to enhance user experience.
+- **API Integrations**: Integrate with a URL shortening API to generate short URLs.
+- **Axios**: Use Axios for making HTTP requests to the API.
+  .env: Use environment variables to securely manage API keys and other sensitive information.
+- **Hooks**: Utilize React hooks for state management and lifecycle methods.
+- **Error Handling**: Implement robust error handling to manage API errors and other potential issues.
+- **Mobile Responsive**: Ensure the application is responsive and works well on mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ensure you have the following installed on your system:
 
-### `npm run build`
+- Node.js (v14.x or higher)
+- npm (v6.x or higher)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+    git clone https://github.com/PranaV-Shimpi/20-React-apps.git
+    cd 19-url-shortener
+   ```
 
-### `npm run eject`
+2. Install the dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   npm i axios
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Environment Variables
+   Create a .env file in the root directory of the project and add your environment variables:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+      REACT_APP_BITLY_ACCESS_TOKEN= 'YOUR TOKEN'
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-## Learn More
+The application should now be running on `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Axios Integration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+All API calls are made using Axios, with a central configuration to handle the base URL and headers.
 
-### Code Splitting
+```
+// src/services/bitlyService.js
+import axios from 'axios';
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+const api = axios.create({
+  baseURL: process.env.REACT_APP_API_URL,
+  headers: {
+    'Authorization': `Bearer ${process.env.REACT_APP_API_KEY}`
+  }
+});
 
-### Analyzing the Bundle Size
+export default api;
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Explanation of Project Structure
 
-### Making a Progressive Web App
+- **components/Background**: Components related to custom animations to enhance the user interface.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* **components/URLShortener**: Components specific to the URL shortening feature, including form and result display.
 
-### Advanced Configuration
+- **services/bitlyService.js**: Configuration and instance of Axios for making API calls, including setting the base URL and headers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* **App.js**: Main App component where the primary application structure is defined.
 
-### Deployment
+* **index.js**: Entry point of the React application.
+* **App.css**: Global styles applied across the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* **.env**: Environment variables file to manage API keys and other configuration securely.
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We welcome contributions! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+
+### Steps to Contribute
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Description of changes"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+---
+
+<p align="center">
+ Made with ❤️ by  PranaV Shimpi
+</p>
+
+<p align="center" >This project is part of the <a href="https://github.com/PranaV-Shimpi/20-React-apps" target="_blank">20 React Apps</a> series by PranaV Shimpi.</p>

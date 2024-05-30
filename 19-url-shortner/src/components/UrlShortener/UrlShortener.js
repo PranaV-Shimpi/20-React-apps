@@ -1,7 +1,7 @@
 // UrlShortener.js
 
 import React, { useState } from "react";
-import { shortenUrl } from "../../utils/bitlyService";
+import { shortenUrl } from "../../services/bitlyService";
 import "./UrlShortener.css";
 
 const UrlShortener = () => {
