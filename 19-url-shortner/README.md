@@ -1,11 +1,11 @@
-# REACT_APP_BITLY_ACCESS_TOKEN
+# URL Shortener
 
 This URL Shortener React project is a web application that allows users to shorten long URLs. The application incorporates various modern React features and best practices, including structured components, custom animations, API integrations, Axios for HTTP requests, environment variables, hooks, error handling, and mobile responsiveness.
 
 - Source-code : [URL Shortener](https://github.com/PranaV-Shimpi/20-React-apps/blob/main/19-url-shortner/README.md)
 - Project Demo: []()
 
-## Images
+# Video
 
 ## Features
 
