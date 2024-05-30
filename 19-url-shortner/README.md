@@ -3,9 +3,17 @@
 This URL Shortener React project is a web application that allows users to shorten long URLs. The application incorporates various modern React features and best practices, including structured components, custom animations, API integrations, Axios for HTTP requests, environment variables, hooks, error handling, and mobile responsiveness.
 
 - Source-code : [URL Shortener](https://github.com/PranaV-Shimpi/20-React-apps/blob/main/19-url-shortner/README.md)
-- Project Demo: []()
+- Project Demo: [https://url-shortener-react-webapp.netlify.app/](https://url-shortener-react-webapp.netlify.app/)
 
 # Video
+
+
+
+https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/832fad80-4ffd-430d-9b46-86dbba998f9a
+
+
+
+
 
 ## Features
 
@@ -13,7 +21,7 @@ This URL Shortener React project is a web application that allows users to short
 - **Custom Animations**: Implement custom animations to enhance user experience.
 - **API Integrations**: Integrate with a URL shortening API to generate short URLs.
 - **Axios**: Use Axios for making HTTP requests to the API.
-  .env: Use environment variables to securely manage API keys and other sensitive information.
+- **.env**: Use environment variables to securely manage API keys and other sensitive information.
 - **Hooks**: Utilize React hooks for state management and lifecycle methods.
 - **Error Handling**: Implement robust error handling to manage API errors and other potential issues.
 - **Mobile Responsive**: Ensure the application is responsive and works well on mobile devices.
