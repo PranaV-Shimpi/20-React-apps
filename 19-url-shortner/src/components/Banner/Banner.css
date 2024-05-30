@@ -45,12 +45,26 @@
 }
 
 body {
-  padding-top: 70px; 
+  padding-top: 70px;
+}
+
+.right {
+  display: inline-flex;
 }
 
 @media only screen and (max-width: 600px) {
   .banner {
     flex-direction: column;
     gap: 10px;
+    width: 100%;
+  }
+  .right {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .right a {
+    margin-left: 0;
+    font-size: 12px;
   }
 }

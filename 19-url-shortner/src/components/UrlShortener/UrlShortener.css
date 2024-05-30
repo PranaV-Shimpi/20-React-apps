@@ -1,0 +1,138 @@
+
+
+.container {
+  max-width: 500px;
+  margin: 150px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 120px;
+}
+
+.submit-btn:disabled {
+  background-color: #b3c6d7;
+  cursor: not-allowed;
+}
+
+.input-field:focus,
+.submit-btn:focus {
+  border-color: #007bff;
+}
+
+.result-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.url-box {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.copy-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease; /* Added transition for transform property */
+}
+
+.copy-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Add slight scale effect when clicked */
+  transition: transform 0.1s ease; /* Only transition transform property */
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #007bff; /* Blue */
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.new-link-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  text-align: center;
+  padding: 10px 20px;
+  color: grey;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.new-link-btn:hover {
+  background-color: skyblue;
+  color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 325px;
+    margin: 150px 20px;
+    padding: 15px 10px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+}

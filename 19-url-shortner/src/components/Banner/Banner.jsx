@@ -11,7 +11,7 @@ const Banner = () => {
       </div>
       <div className="right">
         <a
-          href=""
+          href="/"
           className="github-link"
         >
           👨‍💻Source Code
