@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="banner">
       <div className="left">
         <a href="/" className="project-name">
-          🌟URL Shortner
+          🌟URL Shortener
         </a>
       </div>
       <div className="right">
