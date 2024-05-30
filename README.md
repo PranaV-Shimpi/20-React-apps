@@ -12,6 +12,15 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 
 # Demos 
 
+## URL Shortener
+
+This URL Shortener React project is a web application that allows users to shorten long URLs. The application incorporates various modern React features and best practices, including structured components, custom animations, API integrations, Axios for HTTP requests, environment variables, hooks, error handling, and mobile responsiveness.
+
+- Source-code : [URL Shortener](https://github.com/PranaV-Shimpi/20-React-apps/blob/main/19-url-shortner/README.md)
+- Project Demo: [https://url-shortener-react-webapp.netlify.app/](https://url-shortener-react-webapp.netlify.app/)
+
+![Screenshot 2024-05-30 161209](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/46abe698-43b3-4bf5-a3bf-f2659ee717de)
+
 ## 18) React Redux Shopping cart
 
 The React Redux Shopping Cart project is a web application that allows users to browse a collection of products and add them to their cart. It utilizes React.js for the frontend and Redux for state management. The application provides a seamless shopping experience with features like adding items to the cart, adjusting quantities, and viewing the total price.
