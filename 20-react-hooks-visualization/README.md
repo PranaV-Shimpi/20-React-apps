@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# React Hooks Visualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project provides visualizations and examples of various React hooks.
 
-## Available Scripts
+- Source-code : [React Hooks Visualization](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/20-react-hooks-visualization)
+- Project Demo: []()
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+The project consists of several components:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Home**: Displays the title of the project and a list of available hooks.
+2. **HookList**: Renders a list of available hooks, each linked to its detail page.
+3. **HookDetail**: Displays detailed information about a specific hook, including its description, code snippet, and a link to learn more. It also includes a visualization section.
+4. **HooksDocs**: Contains descriptions and code snippets for each hook.
+5. **HookExamples**: Provides visualizations and examples for each hook.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone <repository-url>
 
-### `npm run build`
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   bash
+   cd 20-react-hooks-visualization
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install dependencies:
 
-### `npm run eject`
+   ```
+   bash
+    npm install
+    npm i react-router-dom
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Run the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```
+   bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Visit the homepage to see the list of available hooks.
+- Click on a hook name to view its details, including a description, code snippet, and visualization.
+- Explore different hooks and their functionalities.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+We welcome contributions! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Steps to Contribute
 
-### Code Splitting
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Description of changes"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+<p align="center">
+ Made with ❤️ by  PranaV Shimpi
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center" >This project is part of the <a href="https://github.com/PranaV-Shimpi/20-React-apps" target="_blank">20 React Apps</a> series by PranaV Shimpi.</p>
