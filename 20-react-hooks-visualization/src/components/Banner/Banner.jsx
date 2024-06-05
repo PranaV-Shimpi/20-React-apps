@@ -11,7 +11,7 @@ const Banner = () => {
       </div>
       <div className="right">
         <a
-          href="https://github.com/PranaV-Shimpi/20-React-apps/blob/main/19-url-shortner/README.md"
+          href="https://github.com/PranaV-Shimpi/20-React-apps/tree/main/20-react-hooks-visualization"
           className="github-link"
         >
           👨‍💻Source Code
