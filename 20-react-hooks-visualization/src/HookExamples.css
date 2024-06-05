@@ -1,0 +1,27 @@
+/* HooksExamples.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hooks-examples-container {
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(142, 141, 141, 0.1);
+  animation: fadeIn 0.5s ease-in-out; /* Apply fadeIn animation */
+}
+
+.example-component {
+  margin-top: 20px;
+}
+
+.example-component p {
+  font-size: 16px;
+  color: #333;
+}

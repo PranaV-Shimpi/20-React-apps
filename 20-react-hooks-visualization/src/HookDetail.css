@@ -1,0 +1,61 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .hook-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out; /* Apply fadeIn animation */
+  }
+
+  .back-link,
+.learn-more-link {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.back-link:hover,
+.learn-more-link:hover {
+  text-decoration: underline;
+}
+
+.hook-detail-container > div {
+  margin-bottom: 20px;
+}
+
+.custom-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.code-block {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.visualization {
+  margin-top: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
+}
