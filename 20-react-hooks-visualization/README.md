@@ -3,17 +3,20 @@
 This project provides visualizations and examples of various React hooks.
 
 - Source-code : [React Hooks Visualization](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/20-react-hooks-visualization)
-- Project Demo: []()
+- Project Demo: [https://react-hooks-visualization.netlify.app/](https://react-hooks-visualization.netlify.app/)
 
-## Overview
+## Images
+![Screenshot 2024-06-05 210849](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/b26d25a9-53f3-487f-af9f-7e678980c4cc)
 
-The project consists of several components:
+![Screenshot 2024-06-05 210814](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/8494ae16-a10d-4ca9-9f97-e1f3abfc8960)
 
-1. **Home**: Displays the title of the project and a list of available hooks.
-2. **HookList**: Renders a list of available hooks, each linked to its detail page.
-3. **HookDetail**: Displays detailed information about a specific hook, including its description, code snippet, and a link to learn more. It also includes a visualization section.
-4. **HooksDocs**: Contains descriptions and code snippets for each hook.
-5. **HookExamples**: Provides visualizations and examples for each hook.
+## Features
+
+- **Home Page**: Displays the title of the project and a list of available hooks.
+- **Hook Detail**: Detailed information about a specific hook, including its description, code snippet, and a link to learn more.
+- **Hook List**: Renders a list of available hooks, each linked to its detail page.
+- **Hooks Documentation**: Contains descriptions and code snippets for each hook.
+- **Hook Examples**: Provides visualizations and examples for each hook.
 
 ## Installation
 
@@ -26,23 +29,20 @@ The project consists of several components:
 
 2. Navigate to the project directory:
 
-   ```
-   bash
+   ``` bash
    cd 20-react-hooks-visualization
    ```
 
 3. Install dependencies:
 
-   ```
-   bash
+   ```bash
     npm install
     npm i react-router-dom
    ```
 
 4. Run the development server:
 
-   ```
-   bash
+   ```bash
    npm start
    ```
 
@@ -60,17 +60,11 @@ We welcome contributions! If you have suggestions for improvements or new featur
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature-name
-   ```
+  
 3. Commit your changes:
-   ```bash
-   git commit -m "Description of changes"
-   ```
+  
 4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
+   
 5. Open a pull request.
 
 ---
