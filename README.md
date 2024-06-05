@@ -9,10 +9,32 @@ Welcome to the 20 React Apps repository! Dive into an immersive journey through 
 - **Clear Documentation:** Detailed README files accompany each app, providing clear instructions on installation, usage, and customization.
 - **Interactive Learning:** Engage with interactive components, dynamic UIs, and responsive designs, fostering an interactive learning environment.
 
+# Best of 20 React projects
 
-# Demos 
 
-## URL Shortener
+| Project Name        | Live Link                           |
+|---------------------|-------------------------------------|
+| React Redux Shopping cart           | [https://shop-chair.netlify.app/](https://shop-chair.netlify.app/)  |
+| Gemini AI Search         | [https://ps-gemini-ai-search.netlify.app/](https://ps-gemini-ai-search.netlify.app/)  |
+| Chat Visualization          | [https://chat-visualization.netlify.app/](https://chat-visualization.netlify.app/)|
+| Unsplash API Images Infinite Scrolling| [https://unsplash-images-infinite-scrolling.netlify.app/](https://unsplash-images-infinite-scrolling.netlify.app/)  |
+| Recipe Finder App using React          |[https://taste-treasure.netlify.app/](https://taste-treasure.netlify.app/)  |
+| EduTech University React Project          | [https://ps-edutech-university.netlify.app/](https://ps-edutech-university.netlify.app/)  |
+| URL Shortener          | [https://url-shortener-react-webapp.netlify.app/](https://url-shortener-react-webapp.netlify.app/)  |
+
+# All Projects 
+
+## 20) React Hooks Visualization
+
+This project provides visualizations and examples of various React hooks.
+
+- Source-code : [React Hooks Visualization](https://github.com/PranaV-Shimpi/20-React-apps/tree/main/20-react-hooks-visualization)
+- Project Demo: [https://react-hooks-visualization.netlify.app/](https://react-hooks-visualization.netlify.app/)
+
+## Images
+![Screenshot 2024-06-05 210849](https://github.com/PranaV-Shimpi/20-React-apps/assets/40532644/b26d25a9-53f3-487f-af9f-7e678980c4cc)
+
+## 19) URL Shortener
 
 This URL Shortener React project is a web application that allows users to shorten long URLs. The application incorporates various modern React features and best practices, including structured components, custom animations, API integrations, Axios for HTTP requests, environment variables, hooks, error handling, and mobile responsiveness.
 
